@@ -13,5 +13,5 @@ populate = (file) ->
         arr.push {name: info[0], cumfreq: info[1]}
   return arr
 
-module.exports = populate "#{__dirname}/./data/males.txt"
+module.exports = populate "#{__dirname}/../data/males.txt"
 
