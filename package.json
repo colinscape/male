@@ -1,7 +1,7 @@
 {
   "name": "male",
   "description": "Utility to provide male forename.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [
     "male",
     "name",
@@ -16,11 +16,14 @@
     "lib": "./lib",
     "data": "./data"
   },
-  "bin": { "male": "./lib/male.js" },
+  "bin": {
+    "male": "./lib/male.js"
+  },
   "main": "./lib/male.js",
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
-  }
+  },
+  "dependencies": {}
 }
